@@ -94,3 +94,26 @@ npm run preview
 ## Build Note
 
 The production build currently works successfully, but Vite may warn that the lazy-loaded 3D scene chunk is large. This does not block the app from building or running.
+
+## GitHub Pages Deployment
+
+This project includes a GitHub Actions workflow at `.github/workflows/deploy.yml` that builds the site and deploys `dist/` to GitHub Pages whenever `main` is updated.
+
+### GitHub setup
+
+1. Push this repository to GitHub.
+2. In the repository, go to `Settings > Pages`.
+3. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+4. In the same Pages settings, set the custom domain to `deeparghchatterjee.com`.
+
+### DNS setup for `deeparghchatterjee.com`
+
+At your domain provider, configure:
+
+- `A` record for `@` -> `185.199.108.153`
+- `A` record for `@` -> `185.199.109.153`
+- `A` record for `@` -> `185.199.110.153`
+- `A` record for `@` -> `185.199.111.153`
+- `CNAME` record for `www` -> `<your-github-username>.github.io`
+
+After DNS propagation, GitHub Pages can serve the site on your custom domain and redirect between apex and `www` as configured in Pages settings.
