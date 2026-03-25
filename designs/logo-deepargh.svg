@@ -1,0 +1,39 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="180" y1="120" x2="1020" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="1" stop-color="#0E3A52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="282" y1="268" x2="888" y2="934" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6BE3D8"/>
+      <stop offset="1" stop-color="#9EE37D"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="358" y1="292" x2="850" y2="870" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FAFF" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#A8BBCD" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="150" y="150" width="900" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#02101B" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1200" rx="280" fill="url(#bg)"/>
+  <circle cx="600" cy="600" r="428" fill="#0A1728" fill-opacity="0.6"/>
+  <circle cx="600" cy="600" r="428" stroke="url(#accent)" stroke-opacity="0.2" stroke-width="2"/>
+  <circle cx="600" cy="600" r="358" stroke="#A6D7D3" stroke-opacity="0.14" stroke-width="2" stroke-dasharray="10 16"/>
+
+  <g filter="url(#shadow)">
+    <path d="M406 300H575C726.88 300 850 423.12 850 575C850 726.88 726.88 850 575 850H406V300Z" fill="none" stroke="url(#metal)" stroke-width="72" stroke-linejoin="round"/>
+    <path d="M792 406C734 354 662 328 576 328" stroke="url(#accent)" stroke-width="28" stroke-linecap="round"/>
+    <path d="M792 794C734 846 662 872 576 872" stroke="url(#accent)" stroke-width="28" stroke-linecap="round"/>
+    <path d="M546 420H700" stroke="url(#accent)" stroke-width="30" stroke-linecap="round"/>
+    <path d="M546 730H700" stroke="url(#accent)" stroke-width="30" stroke-linecap="round"/>
+    <path d="M678 395C750 420 808 477 834 548" stroke="#E9FFF6" stroke-opacity="0.82" stroke-width="10" stroke-linecap="round" stroke-dasharray="8 22"/>
+    <path d="M834 548L853 506L884 564L822 578L834 548Z" fill="#9EE37D"/>
+  </g>
+
+  <circle cx="309" cy="394" r="12" fill="#6BE3D8" fill-opacity="0.55"/>
+  <circle cx="923" cy="336" r="10" fill="#9EE37D" fill-opacity="0.65"/>
+  <circle cx="896" cy="876" r="14" fill="#6BE3D8" fill-opacity="0.45"/>
+  <circle cx="275" cy="826" r="9" fill="#9EE37D" fill-opacity="0.45"/>
+</svg>
