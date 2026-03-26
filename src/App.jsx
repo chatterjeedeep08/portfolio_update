@@ -240,6 +240,9 @@ function App() {
               <a className="button secondary" href={resumePdf} target="_blank" rel="noreferrer">
                 View resume
               </a>
+              <a className="button secondary" href="https://github.com/chatterjeedeep08" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
             </div>
 
             <div className="hero-metadata">
