@@ -19,7 +19,7 @@ const OrbitalScene = lazy(() => import('./OrbitalScene'))
 
 const profile = {
   name: 'Deepargh Chatterjee',
-  location: 'Bellandur, Bangalore',
+  location: 'Bangalore, India',
   email: 'chatterjeedeep2018@gmail.com',
   phone: '+91 7908005980',
   linkedin: 'https://linkedin.com/in/deepargh-chatterjee-086662198',
